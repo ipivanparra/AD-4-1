@@ -66,7 +66,6 @@
                         <mxPoint x="150" y="340" as="targetPoint"/>
                         <Array as="points">
                             <mxPoint x="110" y="340"/>
-                            <mxPoint x="120" y="340"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -105,7 +104,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="33" value="&lt;font color=&quot;#ffffff&quot;&gt;print min(value)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#ffffff;fillColor=#0050ef;strokeColor=#001DBC;" vertex="1" parent="1">
+                <mxCell id="33" value="&lt;font color=&quot;#ffffff&quot;&gt;print min(value) after loop has ended&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#ffffff;fillColor=#0050ef;strokeColor=#001DBC;" vertex="1" parent="1">
                     <mxGeometry x="180" y="560" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="35" style="edgeStyle=none;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FFFFFF;fillColor=#f0a30a;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#BD7000;" edge="1" parent="1" source="34" target="33">
@@ -118,6 +117,9 @@
                 </mxCell>
                 <mxCell id="34" value="min(numbers)" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#ffffff;fillColor=#0050ef;strokeColor=#001DBC;" vertex="1" parent="1">
                     <mxGeometry x="480" y="310" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="once the viewer has seen the full array one at a time then will the min number be printed" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;labelBackgroundColor=none;fontColor=#000000;direction=west;position2=0.38;fillColor=#e3c800;strokeColor=#B09500;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="620" width="160" height="100" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
